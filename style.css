@@ -1,6 +1,49 @@
-p{
-    color:rgb(255, 255, 255)
+p, h1, li{
+    color:rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    font-family:"tosh";
+}
+p, li{
+    font-family:"nix";
+    
+  font-size: 22px;
+
 }
 body{
-    background-color: black;
+    background-color: rgb(29, 27, 29);
+}
+.main{
+    background-color: rgba(58, 58, 58, 0);
+    width: 1300px;
+    max-width: 90%;
+    padding:20px
+}
+.space{
+    height: 50px;
+}
+.devs{
+    background-color: rgb(0, 0, 0);
+    outline-width: 5px;
+    outline-color: white;
+    outline-style: solid;
+    max-width: 80%;
+    padding-left:20px;
+    padding-right:20px;
+}
+@font-face {
+  font-family: "tosh";
+  src: url("./Web437_ToshibaT300_8x8.woff") format('woff');
+}
+@font-face {
+  font-family: "nix";
+  src: url("./Web437_Nix8810_M16.woff") format('woff');
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.pad{
+    padding-left: 30px;
 }

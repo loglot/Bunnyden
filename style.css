@@ -28,6 +28,11 @@ p, li{
 }
 body{
     background-color: rgb(29, 27, 29);
+
+
+}
+::-webkit-scrollbar {
+    display: none;
 }
 .main{
     background-color: rgba(58, 58, 58, 0);

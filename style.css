@@ -1,14 +1,29 @@
-p, h1, li{
+p, h1,h2, li{
     color:rgb(255, 255, 255);
 }
 h1{
     text-align: center;
     font-family:"tosh";
 }
+h2{
+    text-align: center;
+    font-family:"nix";
+  font-size: 32px;
+}
 p, li{
     font-family:"nix";
     
   font-size: 22px;
+
+}
+.lb{
+    background-color: rgb(148, 148, 148);
+    height: 5px;
+    width:90%
+}
+.sub{
+    color: rgb(148, 148, 148);
+    font-size: 17px;
 
 }
 body{

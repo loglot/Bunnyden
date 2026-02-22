@@ -1,18 +1,21 @@
-p, h1,h2, li{
+p, h1,h2,h3, li{
     color:rgb(255, 255, 255);
 }
 h1{
-    text-align: center;
     font-family:"tosh";
 }
-h2{
+.c,h1,h2,h3{
     text-align: center;
+
+}
+h2{
     font-family:"nix";
+    font-weight:400;
   font-size: 32px;
 }
-p, li{
+p, li,h3{
     font-family:"nix";
-    
+    font-weight:400;
   font-size: 22px;
 
 }
@@ -24,6 +27,11 @@ p, li{
 .sub{
     color: rgb(148, 148, 148);
     font-size: 17px;
+
+}
+.sub2{
+    color: rgb(107, 107, 107);
+    font-size: 13px;
 
 }
 body{
